@@ -1,0 +1,59 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+}
+
+.heading-primary {
+  color: snow;
+  text-decoration: underline;
+  text-align: center;
+  font-weight: 700;
+}
+
+.heading-tertiary {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 35px;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
+.heading-secondary {
+  text-align: center;
+  font-size: 20px;
+}
+
+.py-md {
+  padding: 50px 0;
+}
+
+.team-img {
+  background-image: url('../../../assets/Team.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  position: relative;
+}
+
+.team-content {
+  position: absolute;
+  bottom: 5%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: var(--color-primary);
+}
+
+.team-content p {
+  color: white;
+  font-weight: bold;
+}
+
+.team-info h4 {
+  text-transform: uppercase;
+}
+
+.team-info p {
+  padding-top: 10px;
+}

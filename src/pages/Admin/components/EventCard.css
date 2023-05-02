@@ -1,0 +1,21 @@
+.title-xl {
+  font-size: 3.5rem !important;
+}
+
+.card-body {
+  align-items: center;
+}
+
+.card-item-box {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  display: inline-block;
+  width: 33%;
+}
+
+@media (max-width: 767px) {
+  .card-item-box {
+    width: 85%;
+  }
+}

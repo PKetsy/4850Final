@@ -1,0 +1,15 @@
+.navbar-nav li a {
+  font-size: 25px;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-nav li {
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-nav li {
+    margin-bottom: 1rem;
+  }
+}

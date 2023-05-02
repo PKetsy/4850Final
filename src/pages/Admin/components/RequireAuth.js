@@ -1,0 +1,31 @@
+import React, { useEffect } from 'react';
+import authStore from '../stores/authStore';
+import { Navigate } from 'react-router-dom';
+
+export default function RequireAuth(props) {
+  const store = authStore();
+
+  useEffect(() => {
+    if (store.loggedIn === null) {
+      store.checkAuth();
+    }
+  }, []);
+
+  if (store.loggedIn === null) {
+    return <div>Loading</div>;
+  }
+
+  if (store.loggedIn === false) {
+    return <Navigate to="/admin/login" />;
+  }
+
+  return (
+    <div className="section">
+      <div className="container">
+        <main>
+          <div>{props.children}</div>;
+        </main>
+      </div>
+    </div>
+  );
+}

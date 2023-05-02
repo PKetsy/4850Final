@@ -1,0 +1,15 @@
+.dash-heading {
+  text-align: center;
+  padding-bottom: 50px;
+  color: #fff;
+}
+
+.admin-rsvps-home {
+  background-color: #222;
+}
+
+.admin-return {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}

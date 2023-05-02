@@ -1,0 +1,45 @@
+/* CSS STYLES FOR HOME/HERO */
+
+.hero_img_container {
+  height: 60vh;
+  background-image: url('../../../assets/Homepage_Hero_bg.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  position: relative;
+  max-width: 1310px;
+  margin: auto;
+  padding: 1em;
+}
+
+.hero_heading_primary {
+  font-weight: 700;
+}
+
+.hero_special_word {
+  font-size: 40px;
+  color: rgb(255, 102, 0);
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 430px) {
+  .hero_special_word {
+    font-size: 32px;
+  }
+}
+
+.hero_text_white {
+  text-transform: uppercase;
+  font-size: 25px;
+  color: var(--color-white);
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .heading-primary {
+    font-size: 45px;
+  }
+}

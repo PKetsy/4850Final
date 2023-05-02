@@ -1,0 +1,10 @@
+.login-button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.logout-container {
+  margin-bottom: 20px; /* adjust as needed */
+}

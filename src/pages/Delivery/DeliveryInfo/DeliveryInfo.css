@@ -1,0 +1,29 @@
+.delivery-iconbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+
+.delivery-card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.orderButton {
+  align-items: center;
+}
+
+.orderButton {
+  padding: 15px 20px;
+  font-size: 16px;
+  display: flex;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,126 @@
+.fresh_section {
+  padding: 70px 0;
+}
+
+.fresh-container {
+  display: flex;
+  gap: 5%;
+}
+.containerr {
+  max-width: 1310px;
+  margin: 0 auto;
+  padding: 0 5px;
+  align-items: center;
+}
+
+.fresh-carousel {
+  width: 65%;
+  margin-bottom: 50px;
+}
+
+.fresh-content {
+  width: 30%;
+  display: contents;
+}
+
+.fresh-content h4 {
+  text-align: center;
+}
+
+.fresh-heading-secondary {
+  align-items: center;
+  font-size: 60px;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.ampersand {
+  font-family: 'Libre Baskerville', serif;
+  font-style: italic;
+  color: var(--color-primary);
+  font-size: xx-large;
+}
+
+.fresh-carousel img {
+  width: 100%;
+  height: 80vh;
+  border-radius: 5px;
+}
+
+.slick-prev:before,
+.slick-next:before,
+.slick-dots li.slick-active button:before {
+  color: #c3512f !important;
+}
+
+.fresh-content p {
+  padding: 20px 0;
+}
+
+.fresh-card-container {
+  display: flex;
+  height: 100%;
+  gap: 5%;
+  padding-top: 50px;
+}
+
+.fresh-card {
+  width: 30%;
+  height: 100%;
+}
+
+.fresh-card-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.fresh-card-title {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  gap: 10px;
+}
+
+.fresh_card_content {
+  padding-top: 10px;
+}
+
+blockquote {
+  color: var(--color-secondary);
+  border-left: 7px solid var(--color-primary);
+  padding-left: 20px;
+}
+
+.heading-tertiary {
+  font-size: 28px;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 768px) {
+  .fresh-container {
+    flex-direction: column;
+  }
+
+  .fresh-carousel {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .fresh-content {
+    width: 100%;
+  }
+
+  .fresh-card-container {
+    flex-direction: column;
+  }
+  .fresh-card {
+    width: 100%;
+  }
+  .fresh-card-left {
+    margin-bottom: 20px;
+  }
+}

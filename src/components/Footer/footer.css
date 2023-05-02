@@ -1,0 +1,21 @@
+.footer {
+  background-color: var(--color-tertiary);
+  padding-top: 20px;
+  width: 103%;
+}
+
+.footer-grid-item p,
+.footer-grid-item h3 {
+  color: white;
+}
+.container {
+  max-width: 1310px;
+  margin: 0 auto;
+  padding: 0 5px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+}

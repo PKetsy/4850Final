@@ -1,0 +1,10 @@
+.container-fruits h1 {
+  padding-top: 10px;
+  font-size: 35px;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.grid-container {
+  border-bottom: 3px solid #18191a;
+}

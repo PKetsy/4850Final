@@ -1,0 +1,27 @@
+.paid-row {
+  background-color: lightgreen;
+}
+
+.unpaid-row {
+  background-color: white;
+}
+
+.heading-cell {
+  background-color: #222;
+}
+
+.modal-dialog h2,
+.modal-dialog h3,
+.modal-dialog p {
+  text-align: center;
+}
+
+.modal-dialog h2 {
+  padding-top: 25px;
+}
+
+.dialog-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

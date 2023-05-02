@@ -1,0 +1,16 @@
+.container-misc h1 {
+  padding-top: 10px;
+  font-size: 35px;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.container_misc-selection img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.grid-container {
+  padding-bottom: 15px;
+}

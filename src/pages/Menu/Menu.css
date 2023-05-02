@@ -1,0 +1,16 @@
+.welcome_message {
+  background-color: #303030;
+  padding: 1em;
+  margin: 1rem;
+  text-align: center;
+  border: 4px solid rgb(255, 102, 0);
+}
+
+.welcome_box h4 {
+  text-decoration: underline;
+  color: whitesmoke;
+}
+
+.welcome_box {
+  color: whitesmoke;
+}
