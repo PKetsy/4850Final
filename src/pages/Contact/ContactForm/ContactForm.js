@@ -13,11 +13,13 @@ const ContactForm = () => {
       setMessage('Email valid : Message was sent.');
       setTimeout(() => {
         setMessage('');
+        setEmail('');
       }, 5000); //clear message after 5 seconds
     } else if (!regEx.test(email) && email !== '') {
       setMessage('Email is not Valid');
     } else {
       setMessage('');
+      setEmail('');
     }
   };
 
@@ -40,6 +42,7 @@ const ContactForm = () => {
           console.log(result.text);
           console.log('Message Sent');
           e.target.reset();
+          setEmail('');
         },
         (error) => {
           console.log(error.text);
@@ -83,13 +86,13 @@ const ContactForm = () => {
               Name
             </label>
 
-            <input type="text" name="user_name" placeholder="Name" />
+            <input
+              type="text"
+              name="user_name"
+              placeholder="Name"
+              autoComplete="off"
+            />
 
-            <label htmlFor="subject" className="subject">
-              Subject
-            </label>
-
-            <input type="text" name="subject" placeholder="Subject" />
             <label htmlFor="email" className="label">
               Email
             </label>
@@ -101,6 +104,7 @@ const ContactForm = () => {
               placeholder="email"
               value={email}
               onChange={handleOnChange}
+              autoComplete="off"
             />
             <label>Message</label>
             <textarea name="message" className="contact-form-message" />

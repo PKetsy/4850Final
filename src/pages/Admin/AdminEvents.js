@@ -5,6 +5,8 @@ import Events from './components/Events';
 import CreateEvent from './components/CreateEvent';
 import UpdateEvent from './components/UpdateEvent';
 
+import './AdminEvents.css';
+
 export default function AdminEvents() {
   const store = eventsStore();
 
@@ -17,10 +19,11 @@ export default function AdminEvents() {
       <br></br>
       <br />
       <br />
-      <br />
-      <h2 className="admin_home">Welcome to the Events Dashboard</h2>
+      <h2 className="event-admin-home">Welcome to the Events Dashboard</h2>
+      <hr />
       <CreateEvent />
       <br />
+      <hr />
       <UpdateEvent />
       <br />
       <br />

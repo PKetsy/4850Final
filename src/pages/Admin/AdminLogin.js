@@ -14,8 +14,6 @@ export default function AdminLogin() {
           <br />
           <br />
           <br />
-          <br />
-          <br />
           <h1 className="headingOne">Admin Login</h1>
           <LoginForm />
         </div>

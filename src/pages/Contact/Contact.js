@@ -32,6 +32,20 @@ const Contact = () => {
           bgColor="#e1306c"
         />
       </div>
+      <a
+        href="https://docs.google.com/document/d/1ItF3sCqcHg_XTVbRq--39yT2bIwF_HC9aJK3rt1vhns/edit#bookmark=id.9zj2gm154c30"
+        className="btn btn-primary btn-lg active"
+        role="button"
+        aria-pressed="true"
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}
+      >
+        Contact-Form Help
+      </a>
+      <br />
       <ContactForm />
     </div>
   );

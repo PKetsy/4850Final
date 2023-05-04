@@ -1,0 +1,10 @@
+.submit-rsvp-button {
+  margin-left: 150px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 390px) {
+  .submit-rsvp-button {
+    margin-left: 100px;
+  }
+}

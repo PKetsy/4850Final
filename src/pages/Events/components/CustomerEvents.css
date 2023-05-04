@@ -6,3 +6,13 @@
   justify-items: center;
   text-align: center;
 }
+
+.close-form {
+  margin-right: 215px;
+}
+
+@media (max-width: 390px) {
+  .close-form {
+    margin-right: 150px;
+  }
+}

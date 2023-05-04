@@ -81,7 +81,11 @@ export default function CustomerEvents({ event: eventProp }) {
             />
           </Modal.Body>
           <Modal.Footer>
-            <Button variant="secondary" onClick={handleCloseModal}>
+            <Button
+              variant="secondary"
+              onClick={handleCloseModal}
+              className="close-form"
+            >
               Close
             </Button>
           </Modal.Footer>

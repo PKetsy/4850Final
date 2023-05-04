@@ -35,8 +35,8 @@ const EventHome = () => {
           </h5>
           <br></br>
           <h4>
-            2. EVERY ORDER will require a 50% down payment of your order total.
-            Your order will not be fulfilled unless you prepay first.
+            2. **EVERY ORDER will require a 50% down payment of your order
+            total. Your order will not be fulfilled unless you prepay first.
           </h4>
           <br></br>
           <h4>
@@ -57,12 +57,13 @@ const EventHome = () => {
             </h2>
             <br />
             <h2>Call us, or visit us!</h2>
+            <h2>636-386-5050</h2>
           </div>
 
           <br />
           <h4>
-            3. Once the Event items reach our store,
-            <u> customers are required to pick up their orders in store.</u>
+            3. **Once the Event items reach our store, customers are required to
+            pick up their orders in store.
           </h4>
           <h5>
             <b>

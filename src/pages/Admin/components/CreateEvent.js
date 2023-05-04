@@ -82,6 +82,7 @@ export default function CreateEvent() {
               />
               <Form.Control
                 name={'itemPrice'}
+                type="number"
                 value={store.createForm.eventItems[index].itemPrice}
                 placeholder={`Item ${index + 1} Price`}
                 style={{ marginBottom: '2rem' }}
@@ -124,6 +125,22 @@ export default function CreateEvent() {
       >
         LOG OUT
       </Button>
+      <br />
+      <br />
+      <br />
+      <a
+        href="https://docs.google.com/document/d/1R6RP9nxTAGJHMKezv5BuVAhkGZzikRHbAX6hDAa8VBk/edit#bookmark=id.50386jfw4hh6"
+        className="btn btn-link btn-lg active"
+        role="button"
+        aria-pressed="true"
+        style={{
+          justifyContent: 'center',
+          alignItems: 'center',
+          width: '33%',
+        }}
+      >
+        Create Event Help
+      </a>
     </div>
   );
 }
