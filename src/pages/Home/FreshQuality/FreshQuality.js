@@ -4,12 +4,13 @@ import 'slick-carousel/slick/slick-theme.css';
 import './FreshQuality.css';
 import { BsFillStarFill } from 'react-icons/bs';
 
-import image1 from '../../../assets/FreshQuality1.png';
+import image1 from '../../../assets/FreshQualityFlowers.jpg';
 import image2 from '../../../assets/FreshQuality2.jpg';
 import image3 from '../../../assets/FreshQuality3.jpg';
 import image4 from '../../../assets/FreshQuality4.jpg';
 import image5 from '../../../assets/FreshQuality5.jpg';
 import image6 from '../../../assets/FreshQuality6.jpg';
+import image7 from '../../../assets/FreshQuality1.png';
 
 import Slider from 'react-slick';
 
@@ -103,18 +104,20 @@ const FreshQuality = () => {
 
         <div className="fresh-card-container">
           <div className="fresh-card fresh-card-left">
-            <img src={image1} alt="key-fish" className="fresh-card-image" />
+            <img src={image7} alt="key-fish" className="fresh-card-image" />
             <div className="fresh_card_content">
               <div className="fresh-card-title">
                 <BsFillStarFill color="#c3512f" />
                 <h3 className="heading-tertiary">Only the best quality!</h3>
               </div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Exercitationem temporibus rerum magni tempora sed quasi dolores
-                praesentium recusandae vitae saepe dicta culpa, commodi modi
-                dignissimos mollitia aut ullam a aperiam.
-              </p>
+              <h4>
+                The Fruit Stand & Seafood is extremely well connected with
+                produce farmers, seafood providers, and fisherman alike. Make
+                sure to keep an eye out for our exciting events, and don't
+                forget to RSVP! Our Seafood events will leave you in awe! Events
+                such as our Alaska Fishing Trips, Florida Keys Trips, Maine
+                Lobster Tail Trips, and Louisiana Crawfish Trips!
+              </h4>
             </div>
           </div>
           <div className="fresh-card fresh-card-center">
@@ -123,15 +126,16 @@ const FreshQuality = () => {
               <div className="fresh-card-title">
                 <BsFillStarFill color="#c3512f" />
                 <h3 className="heading-tertiary">
-                  <span>Delicious Strawberries!</span>
+                  <span> Delicious Produce!</span>
                 </h3>
               </div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Exercitationem temporibus rerum magni tempora sed quasi dolores
-                praesentium recusandae vitae saepe dicta culpa, commodi modi
-                dignissimos mollitia aut ullam a aperiam.
-              </p>
+              <h4>
+                Our Fruits and Vegetables come from the highest quality
+                providers we can find! Each week we venture out to local Amish
+                farms to obtain the most fresh goods possible for you! We
+                encourage you to vist our store, and to see exactly what we are
+                talking about!
+              </h4>
             </div>
           </div>
           <div className="fresh-card fresh-card-right">
@@ -147,7 +151,7 @@ const FreshQuality = () => {
                   <span>Royal Red Shrimp!</span>
                 </h3>
               </div>
-              <p>
+              <h4>
                 These Royal Red Shrimp are one of our most popular items! Royal
                 Red Shrimp have a delicate and sweet flavor, often described as
                 similar to lobster. These shrimps are known for their vibrant
@@ -157,7 +161,7 @@ const FreshQuality = () => {
                 challenging to catch compared to other shallow-water shrimps.
                 These shrimp can be boiled, grilled, or sautéed to perfection,
                 and are fantasitc in numerous recipes.
-              </p>
+              </h4>
             </div>
           </div>
         </div>

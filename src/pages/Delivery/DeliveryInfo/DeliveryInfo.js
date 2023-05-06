@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+
 import { BsFillStarFill } from 'react-icons/bs';
 
 import './DeliveryInfo.css';
@@ -7,11 +7,6 @@ import DeliveryRadius1 from '../../../assets/DeliveryRadius1.jpg';
 import DeliveryRadius2 from '../../../assets/DeliveryRadius2.jpg';
 
 const DeliveryInfo = () => {
-  let navigate = useNavigate();
-  const routeChange = () => {
-    let path = '/onlineorder';
-    navigate(path);
-  };
   return (
     <div className="section-delivery-info">
       <div className="container">
@@ -61,18 +56,14 @@ const DeliveryInfo = () => {
           </div>
 
           <div>
-            <div className="delivery-iconbox">
-              <BsFillStarFill color="#c3512f" />
-              <h3 className="headting-tertiary">
-                <span>Products eligible for delivery</span>
-              </h3>
+            <div className="welcome_message">
+              <h4 className="welcome_box">
+                Every item in store is eligible for delivery! (excluding Event
+                items)
+              </h4>
+              <h5 className="welcome_box">Call to place your order!</h5>
+              <span className="hero_special_word">(636)-386-5050</span>
             </div>
-            <ul>
-              <li>Snow Crab</li>
-              <li>King Crab</li>
-              <li>Shrimp</li>
-              <li>Seasonings / Accessories </li>
-            </ul>
           </div>
         </div>
       </div>

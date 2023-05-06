@@ -1,7 +1,7 @@
 /* CSS STYLES FOR HOME/HERO */
 
-.hero_img_container {
-  height: 60vh;
+/* .hero_img_container {
+  height: 90vh;
   background-image: url('../../../assets/Homepage_Hero_bg.png');
   background-repeat: no-repeat;
   background-position: top;
@@ -10,7 +10,7 @@
   max-width: 1310px;
   margin: auto;
   padding: 1em;
-}
+} */
 
 .hero_heading_primary {
   font-weight: 700;

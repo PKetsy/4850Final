@@ -2,6 +2,10 @@
   width: 350px;
 }
 
+.contact-section {
+  text-align: center;
+  padding-top: 50px;
+}
 .contact-container h2 {
   text-align: center;
 }

@@ -50,37 +50,45 @@ const ContactForm = () => {
       );
   };
   return (
-    <div className="section">
+    <div className="contact-section">
       <div className="container grid-container contact-content">
         <div>
           <h1 className="heading-secondary">
-            Questions? <span>Call or email!</span>
+            <b> General Questions?</b>
           </h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus,
-            ducimus magnam excepturi blanditiis qui laborum illum tenetur
-            repudiandae rerum quaerat at impedit quo eius odit quasi accusamus
-            officia eligendi consequuntur.
-          </p>
-
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, non
-            aut est iure corporis sed quis voluptate, nulla debitis aliquam ea
-            inventore, quo dolores harum labore accusamus quod temporibus!
-            Voluptatum!
-          </p>
-
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos a
-            voluptatum atque voluptatem. Laudantium dolorum nemo suscipit id
-            ipsa nulla ipsum quam debitis magni delectus dolores veniam, natus
-            vero magnam!
-          </p>
+          <br />
+          <h4>
+            Please do not hesitate to contact us, we are happy to answer any
+            questions you may have about our store, and our products.
+          </h4>
+          <hr />
+          <br />
+          <h1 className="heading-secondary">
+            <b> Questions regarding wholesale?</b>
+          </h1>
+          <br />
+          <h4>
+            Our Operations and Wholesale Manager, Cheryll Sullens will be happy
+            to assist you. You may reach her regarding wholesale inquiries at
+            (314)-791-3074
+          </h4>
+          <hr />
+          <h1 className="heading-secondary">
+            <b> You can also send us an email in the form below!</b>
+          </h1>
+          <h4>
+            If our phone lines are extremely busy, we encourage that you send us
+            an email with your question, comment or concern, and we will get
+            back to you within 24-48 hours!
+          </h4>
+          <hr />
           <br />
         </div>
 
         <div className="contact-container">
-          <h2>Send us an Email!</h2>
+          <b>
+            <h2>Send us an Email!</h2>
+          </b>
           <form ref={form} onSubmit={sendEmail} className="contact-form">
             <label htmlFor="name" className="label">
               Name

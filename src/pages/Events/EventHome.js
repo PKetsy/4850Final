@@ -8,7 +8,7 @@ import Link from '@mui/material/Link';
 
 const EventHome = () => {
   return (
-    <div className="section">
+    <div>
       <MenuImage bgImage={Eventhero} />
       <div className="container-grid-container">
         <div className="about-info-content">
