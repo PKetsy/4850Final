@@ -109,6 +109,7 @@ const CustomerRsvpForm = ({ eventItems, event }) => {
                 placeholder="First Name"
                 style={{ marginBottom: '1rem' }}
                 autoComplete="off"
+                required="true"
               />
             </div>
             <div className="col">
@@ -119,6 +120,7 @@ const CustomerRsvpForm = ({ eventItems, event }) => {
                 placeholder="Last Name"
                 style={{ marginBottom: '1rem' }}
                 autoComplete="off"
+                required="true"
               />
             </div>
           </div>
@@ -130,16 +132,24 @@ const CustomerRsvpForm = ({ eventItems, event }) => {
             placeholder="Email"
             style={{ marginBottom: '1rem' }}
             autoComplete="off"
+            required="true"
           />
 
           <Form.Control
             name="phoneNumber"
             type="number"
             value={store.createRsvpForm.phoneNumber}
-            onChange={store.updateRsvpField}
+            onChange={(e) => {
+              const phoneNumber = e.target.value;
+              if (/^\d{0,10}$/.test(phoneNumber)) {
+                // Only allow up to 10 digits
+                store.updateRsvpField(e);
+              }
+            }}
             placeholder="Phone number"
             style={{ marginBottom: '1rem' }}
             autoComplete="off"
+            required="true"
           />
           <hr />
           <h3 style={{ textAlign: 'center' }}> Items for this Event:</h3>

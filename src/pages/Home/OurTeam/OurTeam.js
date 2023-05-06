@@ -18,55 +18,47 @@ const OurTeam = () => {
         <div className="grid-container py-md">
           <div className="grid-item team-info">
             <h1 className="heading-tertiary">
-              Keith <span>Last Name</span>
+              Keith <span>Rapp</span>
             </h1>
-            <h4 className="heading-secondary">Enter Role here</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-              iusto et cumque cum excepturi repudiandae maxime beatae illo.
-              Facere mollitia architecto dolorem nobis provident libero delectus
-              voluptates. Commodi, odio modi!
-            </p>
+            <h4 className="heading-secondary">Owner</h4>
           </div>
-
+          <hr />
           <div className="grid-item team-info">
             <h3 className="heading-tertiary">
-              Employee2 <span>Last Name</span>
+              Lorrin <span>Charboneau</span>
             </h3>
-            <h4 className="heading-secondary">Enter Role here</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-              iusto et cumque cum excepturi repudiandae maxime beatae illo.
-              Facere mollitia architecto dolorem nobis provident libero delectus
-              voluptates. Commodi, odio modi!
-            </p>
+            <h4 className="heading-secondary">CEO</h4>
           </div>
-
+          <hr />
           <div className="grid-item team-info">
             <h3 className="heading-tertiary">
-              Employee3 <span>Last Name</span>
+              Cheryll <span>Sullens</span>
             </h3>
-            <h4 className="heading-secondary">Enter Role here</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-              iusto et cumque cum excepturi repudiandae maxime beatae illo.
-              Facere mollitia architecto dolorem nobis provident libero delectus
-              voluptates. Commodi, odio modi!
-            </p>
+            <h4 className="heading-secondary">Operations Manager</h4>
+            <h4 className="heading-secondary">Wholesale Manager</h4>
           </div>
-
+          <hr />
           <div className="grid-item team-info">
             <h3 className="heading-tertiary">
-              Employee4 <span>Last Name</span>
+              Tyler <span>Henson</span>
             </h3>
-            <h4 className="heading-secondary">Enter Role here</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-              iusto et cumque cum excepturi repudiandae maxime beatae illo.
-              Facere mollitia architecto dolorem nobis provident libero delectus
-              voluptates. Commodi, odio modi!
-            </p>
+            <h4 className="heading-secondary">CFO</h4>
           </div>
+          <hr />
+          <div className="grid-item team-info">
+            <h3 className="heading-tertiary">
+              Mare <span></span>
+            </h3>
+            <h4 className="heading-secondary">Marketing Manager</h4>
+          </div>
+          <hr />
+          <div className="grid-item team-info">
+            <h3 className="heading-tertiary">
+              Luke <span>Charboneau</span>
+            </h3>
+            <h4 className="heading-secondary">Social Media Manager</h4>
+          </div>
+          <hr />
         </div>
       </div>
     </div>
