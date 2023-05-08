@@ -109,7 +109,7 @@ const CustomerRsvpForm = ({ eventItems, event }) => {
                 placeholder="First Name"
                 style={{ marginBottom: '1rem' }}
                 autoComplete="off"
-                required="true"
+                required={true}
               />
             </div>
             <div className="col">
@@ -120,7 +120,7 @@ const CustomerRsvpForm = ({ eventItems, event }) => {
                 placeholder="Last Name"
                 style={{ marginBottom: '1rem' }}
                 autoComplete="off"
-                required="true"
+                required={true}
               />
             </div>
           </div>
@@ -132,7 +132,7 @@ const CustomerRsvpForm = ({ eventItems, event }) => {
             placeholder="Email"
             style={{ marginBottom: '1rem' }}
             autoComplete="off"
-            required="true"
+            required={true}
           />
 
           <Form.Control
@@ -149,7 +149,7 @@ const CustomerRsvpForm = ({ eventItems, event }) => {
             placeholder="Phone number"
             style={{ marginBottom: '1rem' }}
             autoComplete="off"
-            required="true"
+            required={true}
           />
           <hr />
           <h3 style={{ textAlign: 'center' }}> Items for this Event:</h3>

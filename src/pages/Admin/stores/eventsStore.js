@@ -45,6 +45,7 @@ const eventsStore = create((set) => ({
         eventItems: [],
       },
     });
+    window.location.reload();
   },
 
   updateEvent: async (e) => {

@@ -151,16 +151,45 @@ const FreshQuality = () => {
                   <span>Royal Red Shrimp!</span>
                 </h3>
               </div>
+              <h4>Let Me Tell You A Story About Our ROYAL RED SHRIMP!</h4>
               <h4>
-                These Royal Red Shrimp are one of our most popular items! Royal
-                Red Shrimp have a delicate and sweet flavor, often described as
-                similar to lobster. These shrimps are known for their vibrant
-                red colors, which intensify when cooked. These shrimp are
-                generally larger than most shrimp species, and inhabit waters
-                from 200-2000ft deep. Due to these depths, they are bit more
-                challenging to catch compared to other shallow-water shrimps.
-                These shrimp can be boiled, grilled, or sautéed to perfection,
-                and are fantasitc in numerous recipes.
+                These are absolutely delicious, and tastes like Lobster. These
+                beauties are sold everyday at our store, and by far one of the
+                most popular seafood items.
+              </h4>
+              <h4>
+                These shrimp may look already cooked, but they are not! This red
+                color is due to the extremely deep water in which they reside,
+                which is usually between 300 - 1,500 foot deep!
+              </h4>
+              <h4>
+                Where exactly do these come from?....The Gulf of Mexico! Royal
+                Reds are caught in the Eastern Gulf of Mexico between Alabama
+                and Southern Florida.
+              </h4>
+              <h4>
+                A few times a year, we will have 'special' Fresh-Head-On Royal
+                Reds!
+              </h4>
+              <h4>
+                However, every single day we are well stocked on the
+                Huge-Head-Off 12/15 EZ-Peel Royal Reds. These are both split,
+                and deveined.
+              </h4>
+              <h4>
+                You may check the MENU page on this website for more accurate
+                pricing, but generally we sell these for $14.99 per lb. We have
+                these in pre-weighed 2lb bags, but you can make the bag any size
+                you wish!
+              </h4>
+              <h4>We also offer PEELED Royal Red Shrimp for $15.99 per lb.</h4>
+              <h4>
+                Again, these Royal Reds are by far the most popular seafood item
+                in our store. These shrimp are sweet and tender, and loved by
+                all.
+              </h4>
+              <h4>
+                They are great boiled, BBQed, in tacos, Alfredo, or Fried.
               </h4>
             </div>
           </div>
