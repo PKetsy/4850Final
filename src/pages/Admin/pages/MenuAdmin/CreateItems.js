@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 import menuStore from '../../stores/menuStore';
 import { Form, Button } from 'react-bootstrap';
@@ -26,6 +26,11 @@ export default function CreateItems() {
           <option value="Kenricks">Kenricks</option>
           <option value="Beverages">Beverages</option>
           <option value="Misc">Misc</option>
+          <option value="Seasonal Items">Seasonal Items</option>
+          <option value="Flowers">Flowers</option>
+          <option value="Fresh Cut Kitchen Items">
+            Fresh Cut Kitchen Items
+          </option>
         </Form.Control>
       </Form.Group>
 

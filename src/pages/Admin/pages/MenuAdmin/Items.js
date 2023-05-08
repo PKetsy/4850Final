@@ -13,7 +13,7 @@ export default function Items() {
     <div>
       <h1 style={{ textAlign: 'center' }}>Menu Items:</h1>
       {store.items ? (
-        store.items.map((item, index) => {
+        store.items.map((item, _id) => {
           return (
             <div key={item._id} style={{ marginBottom: '35px' }}>
               <Item item={item} />

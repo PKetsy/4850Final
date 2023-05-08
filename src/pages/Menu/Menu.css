@@ -1,5 +1,6 @@
 .welcome_message {
   background-color: #303030;
+  color: white;
   padding: 1em;
   margin: 1rem;
   text-align: center;
@@ -13,4 +14,22 @@
 
 .welcome_box {
   color: whitesmoke;
+}
+
+.category-find {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.centered-links {
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.centered-links li {
+  font-style: italic;
+  font-size: 1.5em;
+  padding-bottom: 15px;
 }

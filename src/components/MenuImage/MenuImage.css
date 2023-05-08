@@ -1,7 +1,15 @@
-.banner-content {
+/* Default styles for screens above 500px */
+.image-container {
   margin-top: 125px;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  max-width: 2000px;
+}
+
+/* Media query for screens below 500px */
+@media (max-width: 500px) {
+  .image-container {
+    height: 45vh;
+  }
 }

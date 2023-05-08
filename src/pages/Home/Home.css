@@ -5,6 +5,11 @@
   text-align: center;
   border: 4px solid rgb(255, 102, 0);
 }
+.hero_special_word {
+  font-size: 35px;
+  color: rgb(255, 102, 0);
+  font-weight: 700;
+}
 
 .welcome_box {
   color: whitesmoke;

@@ -44,6 +44,11 @@ const AdminMenuUpdateModal = (props) => {
               <option value="Kenricks">Kenricks</option>
               <option value="Beverages">Beverages</option>
               <option value="Misc">Misc</option>
+              <option value="Seasonal Items">Seasonal Items</option>
+              <option value="Flowers">Flowers</option>
+              <option value="Fresh Cut Kitchen Items">
+                Fresh Cut Kitchen Items
+              </option>
             </Form.Control>
           </Form.Group>
 

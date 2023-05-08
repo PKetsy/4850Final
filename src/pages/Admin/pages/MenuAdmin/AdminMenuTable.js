@@ -139,6 +139,11 @@ const AdminMenuTable = () => {
           <MenuItem value="Kenricks">Kenricks</MenuItem>
           <MenuItem value="Beverages">Beverages</MenuItem>
           <MenuItem value="Misc">Misc</MenuItem>
+          <MenuItem value="Seasonal Items">Seasonal Items</MenuItem>
+          <MenuItem value="Flowers">Flowers</MenuItem>
+          <MenuItem value="Fresh Cut Kitchen Items">
+            Fresh Cut Kitchen Items
+          </MenuItem>
         </Select>
       </FormControl>
       <TextField
