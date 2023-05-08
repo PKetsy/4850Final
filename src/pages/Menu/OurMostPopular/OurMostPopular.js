@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
+import React, { useEffect } from 'react';
+
 import './OurMostPopular.css';
 import ListItem from '../../../components/ListItem/ListItem';
 import menuStore from '../../Admin/stores/menuStore';
