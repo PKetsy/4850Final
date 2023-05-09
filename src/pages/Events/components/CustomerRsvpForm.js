@@ -139,6 +139,10 @@ const CustomerRsvpForm = ({ eventItems, event }) => {
             name="phoneNumber"
             type="number"
             value={store.createRsvpForm.phoneNumber}
+            onKeyDown={(evt) =>
+              ['e', 'E', '+', '-', '.'].includes(evt.key) &&
+              evt.preventDefault()
+            }
             onChange={(e) => {
               const phoneNumber = e.target.value;
               if (/^\d{0,10}$/.test(phoneNumber)) {

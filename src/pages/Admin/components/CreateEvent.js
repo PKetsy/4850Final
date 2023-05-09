@@ -84,6 +84,10 @@ export default function CreateEvent() {
                 name={'itemPrice'}
                 type="number"
                 value={store.createForm.eventItems[index].itemPrice}
+                onKeyDown={(evt) =>
+                  ['e', 'E', '+', '-', '.'].includes(evt.key) &&
+                  evt.preventDefault()
+                }
                 placeholder={`Item ${index + 1} Price`}
                 style={{ marginBottom: '2rem' }}
                 onChange={(e) => {

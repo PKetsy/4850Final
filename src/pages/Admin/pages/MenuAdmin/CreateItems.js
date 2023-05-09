@@ -61,6 +61,9 @@ export default function CreateItems() {
         <Form.Control
           name="price"
           type="number"
+          onKeyDown={(evt) =>
+            ['e', 'E', '+', '-', '.'].includes(evt.key) && evt.preventDefault()
+          }
           value={store.createMenuForm.price}
           onChange={store.updateCreateFormField}
           min="0"
