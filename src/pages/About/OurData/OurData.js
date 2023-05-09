@@ -6,12 +6,12 @@ const OurData = () => {
     <div className="container-our-data">
       <div className="grid-container">
         <div>
-          <h1>16</h1>
+          <h1>17+</h1>
           <p>Years in business</p>
         </div>
 
         <div>
-          <h1>20+</h1>
+          <h1>15+</h1>
           <p>Team members</p>
         </div>
 

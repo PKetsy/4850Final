@@ -62,7 +62,7 @@ export default function CreateItems() {
           name="price"
           type="number"
           onKeyDown={(evt) =>
-            ['e', 'E', '+', '-', '.'].includes(evt.key) && evt.preventDefault()
+            ['e', 'E', '+', '-'].includes(evt.key) && evt.preventDefault()
           }
           value={store.createMenuForm.price}
           onChange={store.updateCreateFormField}

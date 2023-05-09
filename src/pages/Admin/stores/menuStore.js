@@ -37,6 +37,7 @@ const menuStore = create((set) => ({
         price: 0,
       },
     });
+    window.location.reload();
   },
 
   updateItem: async (e) => {
